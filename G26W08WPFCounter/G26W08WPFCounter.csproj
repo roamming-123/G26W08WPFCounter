@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="diego-jimenez-A-NVHPka9Rk-unsplash.jpg" />
+    <None Remove="Jmages\diego-jimenez-A-NVHPka9Rk-unsplash.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="diego-jimenez-A-NVHPka9Rk-unsplash.jpg" />
+    <Resource Include="Jmages\diego-jimenez-A-NVHPka9Rk-unsplash.jpg" />
+  </ItemGroup>
+
+</Project>
